@@ -104,12 +104,11 @@ p {
   top: 60%;
   left: 5%;
 }
-
 .white-button {
   height: 48px;
   background: #ffffff;
   border-radius: 2px;
-  border: #ffffff 1px solid;
+  border: #ffffff 2px solid;
   width: 164px;
   font-weight: 700;
   font-family: "Roboto" sans-serif;
