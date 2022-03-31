@@ -225,3 +225,67 @@ p {
 .left-text-link {
   text-decoration: none;
 }
+
+.orange-img {
+  background-image: url(./images/orange-img-trainers.png);
+  background-size: cover;
+  width: 1663px;
+  height: 560px;
+  margin: 0 auto;
+}
+
+.big-box-with-orange-img {
+  margin-top: 100px;
+}
+
+.caption {
+  font-family: "Roboto" sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+}
+
+.text-for-orange-img {
+  padding-top: 50px;
+}
+
+.sub-title {
+  font-family: "Roboto" sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  padding-top: 50px;
+}
+
+.dark-button {
+  background: #212a2f;
+  border: 2px solid #212a2f;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Roboto" sans-serif;
+  width: 180px;
+  height: 48px;
+  margin-right: 7px;
+}
+
+.button-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.dark-button-last {
+  margin-left: 7px;
+}
