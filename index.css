@@ -100,7 +100,8 @@ p {
 }
 
 .first-part-text-content {
-  position: absolute;
+  position: relative;
+  display: inline-block;
   top: 60%;
   left: 5%;
 }
@@ -124,4 +125,92 @@ p {
 
 .white-button-right {
   margin-left: 24px;
+}
+
+.title {
+  font-family: "Roboto" sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  padding-top: 80px;
+  padding-bottom: 15px;
+}
+
+.big-button {
+  font-family: "Roboto" sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #212a2f;
+  border: none;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+.big-button:hover {
+  border-bottom: 2px black solid;
+}
+
+.button-box {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.big-button-middle {
+  margin-left: 100px;
+  margin-right: 110px;
+}
+
+.our-favourites-first {
+  background-image: url(./images/first-grey-sneakers-img.png);
+  width: 540px;
+  height: 500px;
+  background-size: cover;
+}
+
+.our-favourites-second {
+  background-image: url(./images/second-white-sneakers.png);
+  width: 540px;
+  height: 500px;
+  background-size: cover;
+}
+
+.our-favourites-third {
+  background-image: url(./images/third-grey-sneakers-img.png);
+  width: 540px;
+  height: 500px;
+  background-size: cover;
+}
+
+.white-big-button {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Roboto" sans-serif;
+  color: #212a2f;
+  width: 276px;
+  height: 48px;
+  border: none;
+  left: 25%;
+  top: 40%;
+  position: relative;
+}
+
+.white-big-button-bottom {
+  margin-top: 15px;
+}
+
+.our-favourites-box-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1700px;
+  margin: 0 auto;
 }
