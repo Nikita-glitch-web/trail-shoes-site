@@ -63,6 +63,7 @@ p {
 
 .button-img {
   border: none;
+  background: #e5e5e5;
 }
 
 .right-text-last {
@@ -219,4 +220,8 @@ p {
   justify-content: space-between;
   max-width: 1600px;
   margin: 0 auto;
+}
+
+.left-text-link {
+  text-decoration: none;
 }
