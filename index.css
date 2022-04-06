@@ -345,6 +345,7 @@ p {
 .woods-img {
   width: 100%;
   background-size: cover;
+  max-width: 1700px;
 }
 
 .wood-title {
@@ -391,4 +392,11 @@ p {
   text-transform: uppercase;
   color: #ffffff;
   margin-top: 30px;
+  cursor: pointer;
+}
+
+.block-with-nature-wood-img {
+  padding-bottom: 70px;
+  margin: 0 auto;
+  max-width: 1700px;
 }
