@@ -400,3 +400,83 @@ p {
   margin: 0 auto;
   max-width: 1700px;
 }
+
+.email-title {
+  font-family: "Roboto" sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+}
+
+.email-row-title {
+  padding-top: 90px;
+}
+
+.email-sub-text {
+  font-family: "Roboto" sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #212a2f;
+  padding-top: 20px;
+}
+
+.email-input {
+  width: 580px;
+  height: 50px;
+  border-bottom: 2px solid #212a2f;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+  padding-left: 50px;
+  color: rgba(0, 0, 0, 0.22);
+}
+
+.dark-button-second {
+  background: #212a2f;
+  border: 2px solid #212a2f;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 111px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.email-input-box {
+  text-align: center;
+  max-width: 720px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.grey-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #74797c;
+  font-family: "Roboto" sans-serif;
+}
+
+.last-text-row {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
